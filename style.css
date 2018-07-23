@@ -121,7 +121,9 @@
     fill : rgb(0, 0, 0);
   }
   
-  .nav_secundario .header__box:hover .quickfilter button svg path {
+  .nav_secundario .header__box:hover .quickfilter button svg path,
+  .nav_secundario .header__box:hover a,
+  .nav_secundario .header__box:hover a i svg path {
     color : rgb(0, 0, 0);
     fill : rgb(0, 0, 0);
   }
@@ -133,6 +135,16 @@
   .nav_secundario .header__box .user .user__handle {
     padding : 5px;
     min-height : 54px;
+  }
+
+  .nav_secundario .header__box .user .user__handle .icon-user {
+    position: absolute;
+    left: 5px;
+  }
+
+  .nav_secundario .header__box .user .user__handle .user__login {
+    margin: -3px 0 0 17px;
+    font-size: 12px;
   }
   
   .nav_secundario .header__box.header__minicart .minicart__handle {
