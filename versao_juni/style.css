@@ -1,0 +1,291 @@
+.custom-select--offpremium .custom-select__text {
+    color : rgb(0, 0, 0);
+  }
+  
+  .header .smartsearch {
+    top : 54px;
+  }
+  
+  .header .smartsearch--open .smartsearch__title {
+    color : rgb(0, 0, 0);
+  }
+  
+  .header__menu-button {
+    display : none;
+  }
+  
+  .header__area--top {
+    z-index : -1;
+  }
+  
+  .header__area--bottom {
+    display : none;
+  }
+  
+  .header__logo {
+    margin : auto;
+  }
+  
+  .header_ab {
+    width : 100%;
+    display : flex;
+    color : rgb(255, 255, 255);
+    background : rgb(0, 0, 0);
+  }
+  
+  .main-search {
+    top : 54px;
+  }
+  
+  .nav_primario .box_buscar {
+    float : left;
+  }
+  
+  .nav_primario .box_buscar .header__box.header__search {
+    width : 400px;
+    text-align : left;
+    align-items : end;
+    text-transform : uppercase;
+    background : rgb(243, 243, 243);
+    position : relative;
+  }
+  
+  .nav_primario .box_buscar .header__box.header__search i.icon-search {
+    position : absolute;
+    left : 0px;
+    top : 20px;
+  }
+  
+  .nav_primario .box_buscar .header__box.header__search i.icon-search svg {
+    position : relative;
+    left : -10px;
+  }
+  
+  .nav_primario .box_buscar .header__box.header__search i.icon-search svg image {
+    width : 12px;
+    height : 18px;
+  }
+  
+  .nav_primario .box_buscar .header__box.header__search span {
+    text-transform : capitalize;
+    font-size : 12px;
+    color : rgb(0, 0, 0);
+    font-weight : 100;
+  }
+  
+  .nav_primario .box_buscar .header__box.header__search button.js-toggle-search {
+    text-align : left;
+    align-items : end;
+    text-indent : 20px;
+    padding : 16px;
+  }
+  
+  .nav_primario ul.primeiro_nivel {
+    float : left;
+    margin-right : 5%;
+  }
+  
+  .nav_primario ul.primeiro_nivel li {
+    display : inline-block;
+  }
+  
+  .nav_primario ul.primeiro_nivel li.active {
+    background : rgb(255, 255, 255);
+    color : rgb(0, 0, 0);
+  }
+  
+  .nav_primario ul.primeiro_nivel li a {
+    cursor : pointer;
+    font-size : 11px;
+    font-weight : bold;
+    text-transform : uppercase;
+    padding : 19px;
+    transition-duration : 0.3s;
+    transition-timing-function : ease;
+    transition-delay : initial;
+    transition-property : color;
+    min-height : 54px;
+  }
+  
+  .nav_secundario {
+    float : right;
+  }
+  
+  .nav_secundario .header__search > div > button, .nav_secundario .header__quickfilter > div > button {
+    padding : 6px;
+    min-height : 54px;
+  }
+  
+  .nav_secundario .header__quickfilter > div > button.js-toggle-smartsearch.active svg path {
+    color : rgb(0, 0, 0);
+    fill : rgb(0, 0, 0);
+  }
+  
+  .nav_secundario .header__box:hover .minicart__handle svg path, .nav_secundario .header__box:hover .quickfilter button svg path, .nav_secundario .header__box:hover a, .nav_secundario .header__box:hover a i svg path {
+    color : rgb(0, 0, 0);
+    fill : rgb(0, 0, 0);
+  }
+  
+  .nav_secundario .header__box:hover .minicart__count-value {
+    color : rgb(0, 0, 0);
+  }
+  
+  .nav_secundario .minicart.js-active .minicart__count-value {
+    color : rgb(0, 0, 0);
+  }
+  
+  .nav_secundario .header__box {
+    float : left;
+  }
+  
+  .nav_secundario .header__box .user .user__handle {
+    padding : 5px 5px 5px 13px;
+    min-height : 54px;
+  }
+  
+  .nav_secundario .header__box .user .user__handle .icon-user {
+    position : absolute;
+    left : 11px;
+  }
+  
+  .nav_secundario .header__box .user .user__handle .user__login {
+    margin : -3px 0px 0px 17px;
+    font-size : 12px;
+  }
+  
+  .nav_secundario .minicart__count-value {
+    color : rgb(255, 255, 255);
+  }
+  
+  .nav_secundario .minicart.minicart--empty.js-active svg path {
+    fill : rgb(0, 0, 0);
+    color : rgb(0, 0, 0);
+  }
+  
+  .minicart.js-active .minicart__modal {
+    right : -44px;
+    z-index : 3;
+  }
+  
+  .nav_secundario .header__box.header__minicart .minicart__handle {
+    min-height : 54px;
+  }
+  
+  .nav_secundario .minicart__modal {
+    right : -425px;
+  }
+  
+  .nav_principal {
+    width : 100%;
+    text-align : center;
+    opacity : 0;
+    transition-duration : 0.3s;
+    transition-timing-function : linear;
+    transition-delay : initial;
+    transition-property : all;
+    display : none;
+  }
+  
+  .nav_principal.active {
+    opacity : 1;
+    display : block;
+  }
+  
+  .menu_principal > ul.menu__list > li {
+    display : inline-block;
+  }
+  
+  .menu_principal > ul.menu__list > li > a {
+    text-transform : uppercase;
+    font-size : 12px;
+    padding : 10px;
+  }
+  
+  .menu_principal > ul.menu__list > li .menu__panel--level-2 {
+    background-color : rgb(255, 255, 255);
+  }
+  
+  .menu_principal > ul.menu__list > li .menu__panel--level-2 .container > ul > li > a {
+    color : rgb(0, 0, 0);
+  }
+  
+  .menu_principal > ul.menu__list > li .menu__panel--level-2 .container > .menu__banner {
+    float : right;
+  }
+  
+  .menu_principal > ul.menu__list > li > .menu__panel--level-2 .container--level-2 {
+    padding-top : 15px;
+    max-width : 90%;
+    width : 75%;
+    margin : auto;
+  }
+  
+  .menu_principal > ul.menu__list > li > .menu__panel--level-2 .container--level-2 ul {
+    float : left;
+  }
+  
+  .menu_principal > ul.menu__list > li > .menu__panel--level-2 .container--level-2 .menu__banner {
+    display : flex;
+    width : auto;
+  }
+  
+  .menu_principal > ul.menu__list > li:hover > .menu__panel--level-2 {
+    z-index : 1;
+    pointer-events : auto;
+    opacity : 1;
+    transition-duration : 0s;
+    transition-timing-function : initial;
+    transition-delay : initial;
+    transition-property : initial;
+  }
+  
+  .menu_principal > ul.menu__list > li:hover > a {
+    position : relative;
+    transition-duration : 0s;
+    transition-timing-function : initial;
+    transition-delay : initial;
+    transition-property : initial;
+    font-weight : 600;
+  }
+  
+  .menu_principal > ul.menu__list > li > a > .icon-arrow {
+    content : "";
+    background-image : url("/arquivos/icon-arrow.png");
+    background-position : center top;
+    background-repeat : no-repeat no-repeat;
+    background-attachment : initial;
+    background-origin : initial;
+    background-clip : initial;
+    background-color : rgb(255, 255, 255);
+    width : 18px;
+    height : 16px;
+    background-size : contain;
+    transform : rotate(-90deg);
+    position : absolute;
+    left : 35%;
+    bottom : -5px;
+    display : none;
+    opacity : 0;
+    z-index : 33;
+    transition-duration : 0.4s;
+    transition-timing-function : linear;
+    transition-delay : initial;
+    transition-property : all;
+  }
+  
+  .menu_principal > ul.menu__list > li:hover > a > .icon-arrow {
+    display : block;
+    opacity : 1;
+  }
+  
+  .menu_principal > ul.menu__list > li:hover > .menu__panel--level-2 .container--level-2::before {
+    content : "";
+    background : rgb(201, 200, 200);
+    position : absolute;
+    height : 1px;
+    display : inline-block;
+    top : 0px;
+    width : calc(100% - 190px);
+    left : 10%;
+  }
+  
