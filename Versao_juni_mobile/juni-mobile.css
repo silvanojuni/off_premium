@@ -1,0 +1,35 @@
+.header_ab {
+    background : rgb(0, 0, 0);
+    width : 100%;
+  }
+  
+  .header_ab .container {
+    padding : 0px;
+  }
+  
+  ul.primeiro_nivel li {
+    display : flex;
+    flex-wrap : wrap;
+    width : 100%;
+    border-bottom : 1px solid rgb(255, 255, 255);
+  }
+
+  ul.primeiro_nivel li .menu__handle {
+        padding-right: 20px;
+    }
+  
+  ul.primeiro_nivel li a {
+    flex-grow : 1;
+    flex-shrink : 1;
+    flex-basis : 50%;
+    max-width : 50%;
+    height : 60px;
+    padding : 20px 0px 20px 15px;
+    font-size : 14px;
+    font-weight : 100;
+    text-transform : uppercase;
+  }
+  ul.primeiro_nivel li .btn-minus {
+    display: none;
+}
+  
