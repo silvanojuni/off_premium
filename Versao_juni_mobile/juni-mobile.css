@@ -1,35 +1,120 @@
 .header_ab {
-    background : rgb(0, 0, 0);
-    width : 100%;
-  }
-  
-  .header_ab .container {
-    padding : 0px;
-  }
-  
-  ul.primeiro_nivel li {
-    display : flex;
-    flex-wrap : wrap;
-    width : 100%;
-    border-bottom : 1px solid rgb(255, 255, 255);
-  }
-
-  ul.primeiro_nivel li .menu__handle {
-        padding-right: 20px;
-    }
-  
-  ul.primeiro_nivel li a {
-    flex-grow : 1;
-    flex-shrink : 1;
-    flex-basis : 50%;
-    max-width : 50%;
-    height : 60px;
-    padding : 20px 0px 20px 15px;
-    font-size : 14px;
-    font-weight : 100;
-    text-transform : uppercase;
-  }
-  ul.primeiro_nivel li .btn-minus {
-    display: none;
+  background : rgb(0, 0, 0);
+  width : 100%;
 }
-  
+
+.header_ab .container {
+  padding : 0px;
+}
+
+ul.primeiro_nivel > li {
+  display : flex;
+  flex-wrap : wrap;
+  width : 100%;
+  border-bottom : 1px solid rgb(255, 255, 255);
+}
+
+ul.primeiro_nivel > li .menu__handle {
+  padding-right : 20px;
+}
+
+ul.primeiro_nivel > li > a {
+  flex-grow : 1;
+  flex-shrink : 1;
+  flex-basis : 50%;
+  max-width : 50%;
+  height : 60px;
+  padding : 20px 0px 20px 15px;
+  font-size : 14px;
+  font-weight : 100;
+  text-transform : uppercase;
+}
+
+ul.primeiro_nivel > li .btn-minus {
+  display : none;
+}
+
+ul.primeiro_nivel > li .menu__panel--level-2 {
+  background : rgb(255, 255, 255);
+}
+
+ul.primeiro_nivel > li .menu__panel--level-2.active {
+  display : block !important;
+}
+
+ul.primeiro_nivel > li .menu__panel--level-2 .sub-home .container > li {
+  display : flex;
+}
+
+ul.primeiro_nivel > li .menu__panel--level-2 .sub-home .container > li > .menu__handle {
+  height : auto;
+  padding-top : 0px;
+  padding-bottom : 0px;
+  padding-left : 0px;
+  padding-right : 19px;
+}
+
+ul.primeiro_nivel > li .menu__panel--level-2 .sub-home .container > li > .menu__handle > i {
+  transform : rotate(-90deg);
+  position : relative;
+  top : -3px;
+}
+
+ul.primeiro_nivel > li .menu__panel--level-2 .sub-home .container > li > .menu__handle > i svg path {
+  color : rgb(138, 138, 138);
+  fill : rgb(138, 138, 138);
+}
+
+ul.primeiro_nivel > li .menu__panel--level-2 .sub-home .container > li > a {
+  color : rgb(109, 109, 109);
+  padding : 10px 0px 10px 30px;
+  height : 40px;
+  flex-grow : 1;
+  flex-shrink : 1;
+  flex-basis : 50%;
+  max-width : 50%;
+}
+
+ul.primeiro_nivel > li .menu__panel--level-2 .sub_menu .container a.btn_voltar {
+  color : rgb(0, 0, 0);
+  text-transform : uppercase;
+  border-bottom : 1px solid rgb(220, 220, 220);
+  padding : 10px 0px;
+}
+
+ul.primeiro_nivel > li .menu__panel--level-2 .sub_menu .container a.btn_voltar > .menu__handle {
+  height : auto;
+  padding-top : 0px;
+  padding-bottom : 0px;
+  padding-left : 0px;
+  padding-right : 19px;
+}
+
+ul.primeiro_nivel > li .menu__panel--level-2 .sub_menu .container a.btn_voltar > .menu__handle > i {
+  transform : rotate(90deg);
+  position : relative;
+}
+
+ul.primeiro_nivel > li .menu__panel--level-2 .sub_menu .container a.btn_voltar > .menu__handle > i svg {
+  width : 21px;
+}
+
+ul.primeiro_nivel > li .menu__panel--level-2 .sub_menu .container a.btn_voltar > .menu__handle > i svg path {
+  color : rgb(109, 109, 109);
+  fill : rgb(109, 109, 109);
+}
+
+ul.primeiro_nivel > li .menu__panel--level-2 .sub_menu .container {
+  display : none;
+  padding : 0px 20px;
+}
+
+ul.primeiro_nivel > li .menu__panel--level-2 .sub_menu .container > ul > li {
+  padding : 0px 20px;
+  display : flex;
+}
+
+ul.primeiro_nivel > li .menu__panel--level-2 .sub_menu .container > ul > li > a {
+  color : rgb(0, 0, 0);
+  text-transform : capitalize;
+}

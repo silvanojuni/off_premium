@@ -26,15 +26,27 @@ var new_header = `
 $('.menu__modal').prepend(new_header);
 
 //Open sub menu
-$('body').on('click','.header_ab ul.primeiro_nivel li .menu__handle',function(event) {
+$('body').on('click','.header_ab ul.primeiro_nivel > li > .menu__handle',function(event) {
     event.preventDefault();
 
+    $('ul.primeiro_nivel > li .menu__panel--level-2 .sub_menu .container').hide();//sempre oculta o menu do sub menu
+    $('ul.primeiro_nivel > li .menu__panel--level-2 .sub-home > ul').show();
+    $('ul.primeiro_nivel > li .menu__panel--level-2 .sub_menu .container:visible').hide();
+
     if($(this).hasClass('btn-plus')) {
-        $(this).hide();
-        $(this).parent().find('.btn-minus').show();
+        if($('ul.primeiro_nivel > li .menu__panel--level-2:visible')) {
+            $('ul.primeiro_nivel > li .menu__panel--level-2:visible').slideUp("slow");//oculta possíveis submenu aberto
+            $('ul.primeiro_nivel > li .btn-minus').hide();
+            $('ul.primeiro_nivel > li .btn-plus').show();
+        }
+
+        $(this).hide();//Oculta o btn plus
+        $(this).parent().find('.btn-minus').show();//exibir o btn minus
+        $(this).parent().find('.menu__panel--level-2').slideDown("slow");//exbir o submenu correspondente
     } else {
         $(this).hide();
         $(this).parent().find('.btn-plus').show();
+        $(this).parent().find('.menu__panel--level-2').slideUp("slow");
     }
 
         /* Comentando código abaixo por enquanto---
@@ -54,4 +66,18 @@ $('body').on('click','.header_ab ul.primeiro_nivel li .menu__handle',function(ev
     */
 
     return false;
+});
+
+$('body').on('click','ul.primeiro_nivel > li .menu__panel--level-2 .sub-home > .container > li > .menu__handle',function(e){
+    e.preventDefault();
+    var ref = $(this).attr('data-index');  
+    $('ul.primeiro_nivel > li .menu__panel--level-2 .sub_menu .container').hide();
+    $('ul.primeiro_nivel > li .menu__panel--level-2 .sub-home > ul').hide();
+    $('#'+ref).show();
+});
+
+$('body').on('click','ul.primeiro_nivel > li .menu__panel--level-2 .sub_menu .container a.btn_voltar',function(e){
+    e.preventDefault();
+    $(this).closest('.container--level-2').hide();
+    $(this).closest('.menu__panel--level-2').find('.sub-home ul').show();
 });
