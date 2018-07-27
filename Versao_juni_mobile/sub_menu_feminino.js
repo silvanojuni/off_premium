@@ -4,18 +4,18 @@ var menuFeminino = `
         <ul class="container container--level-2">
             <li>
                 <a href="https://www.offpremium.com.br/a-brand?O=OrderByScoreDESC&amp;pg=6&amp;line=0"><span>Marcas</span></a>
-                <button class="menu__handle menu__handle--level-1" data-index="sub_home_marca"><i class="menu__icon icon icon-toggle"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 17 10" fill="#fff" width="15"><path d="M17 1.5L8.5 10 0 1.5 1.594 0l6.908 6.9L15.409 0 17 1.5z"></path></svg></i></button>
+                <button class="menu__handle menu__handle--level-1" data-index="sub_home_marca_feminino"><i class="menu__icon icon icon-toggle"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 17 10" fill="#fff" width="15"><path d="M17 1.5L8.5 10 0 1.5 1.594 0l6.908 6.9L15.409 0 17 1.5z"></path></svg></i></button>
             </li>
             <li>
                 <a href="https://www.offpremium.com.br/novidades?O=OrderByScoreDESC"><span>Novidades</span></a>
             </li>
             <li>
                 <a href="javascript:void(0);"><span>Roupas</span></a>
-                <button class="menu__handle menu__handle--level-1" data-index="sub_home_roupas"><i class="menu__icon icon icon-toggle"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 17 10" fill="#fff" width="15"><path d="M17 1.5L8.5 10 0 1.5 1.594 0l6.908 6.9L15.409 0 17 1.5z"></path></svg></i></button>
+                <button class="menu__handle menu__handle--level-1" data-index="sub_home_roupas_feminino"><i class="menu__icon icon icon-toggle"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 17 10" fill="#fff" width="15"><path d="M17 1.5L8.5 10 0 1.5 1.594 0l6.908 6.9L15.409 0 17 1.5z"></path></svg></i></button>
             </li>
             <li>
                 <a href="https://www.offpremium.com.br/acessorios?O=OrderByScoreDESC&amp;line=0&amp;pg=1"><span>Acessórios</span></a>
-                <button class="menu__handle menu__handle--level-1" data-index="sub_home_acessorios"><i class="menu__icon icon icon-toggle"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 17 10" fill="#fff" width="15"><path d="M17 1.5L8.5 10 0 1.5 1.594 0l6.908 6.9L15.409 0 17 1.5z"></path></svg></i></button>
+                <button class="menu__handle menu__handle--level-1" data-index="sub_home_acessorios_feminino"><i class="menu__icon icon icon-toggle"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 17 10" fill="#fff" width="15"><path d="M17 1.5L8.5 10 0 1.5 1.594 0l6.908 6.9L15.409 0 17 1.5z"></path></svg></i></button>
             </li>
             <li>
                 <a href="https://www.offpremium.com.br/acessorios/calcado?O=OrderByScoreDESC"><span>Calçados</span></a>
@@ -32,9 +32,9 @@ var menuFeminino = `
         </ul>
     </div>
     <div class="sub_menu">
-        <div class="container container--level-2" id="sub_home_marca">
+        <div class="container container--level-2" id="sub_home_marca_feminino">
             <ul class="menu__list menu__list--level-2 menu__col menu__col--col-1">
-                <a class="btn_voltar"><button class="menu__handle menu__handle--level-1" data-index="sub_home_marca"><i class="menu__icon icon icon-toggle" ><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 17 10" fill="#fff" width="20"><path d="M17 1.5L8.5 10 0 1.5 1.594 0l6.908 6.9L15.409 0 17 1.5z"></path></svg></i></button>Marca</a>
+                <a class="btn_voltar"><button class="menu__handle menu__handle--level-1" data-index="sub_home_marca_feminino"><i class="menu__icon icon icon-toggle" ><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 17 10" fill="#fff" width="20"><path d="M17 1.5L8.5 10 0 1.5 1.594 0l6.908 6.9L15.409 0 17 1.5z"></path></svg></i></button>Marcas</a>
                 <li>
                     <a class="menu__link menu__link--level-2" href="https://www.offpremium.com.br/a-brand?O=OrderByScoreDESC&pg=6&line=0"><span>A. Brand</span></a>
                 </li>
@@ -70,9 +70,9 @@ var menuFeminino = `
                 </li>
             </ul>
         </div>    
-        <div class="container container--level-2" id="sub_home_roupas">
+        <div class="container container--level-2" id="sub_home_roupas_feminino">
             <ul class="menu__list menu__list--level-2 menu__col menu__col--col-1">
-                <a class="btn_voltar"><button class="menu__handle menu__handle--level-1" data-index="sub_home_marca"><i class="menu__icon icon icon-toggle" ><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 17 10" fill="#fff" width="20"><path d="M17 1.5L8.5 10 0 1.5 1.594 0l6.908 6.9L15.409 0 17 1.5z"></path></svg></i></button>Roupas</a>
+                <a class="btn_voltar"><button class="menu__handle menu__handle--level-1" data-index="sub_home_roupas_feminino"><i class="menu__icon icon icon-toggle" ><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 17 10" fill="#fff" width="20"><path d="M17 1.5L8.5 10 0 1.5 1.594 0l6.908 6.9L15.409 0 17 1.5z"></path></svg></i></button>Roupas</a>
                 <li>
                     <a class="menu__link menu__link--level-2" href="https://www.offpremium.com.br/feminino/blusa?O=vtexscore+desc&PS=24">
                         <span>Blusa</span>
@@ -95,9 +95,9 @@ var menuFeminino = `
                 </li>
             </ul>
         </div>
-        <div class="container container--level-2" id="sub_home_acessorios">
+        <div class="container container--level-2" id="sub_home_acessorios_feminino">
             <ul class="menu__list menu__list--level-2 menu__col menu__col--col-1">
-                <a class="btn_voltar"><button class="menu__handle menu__handle--level-1" data-index="sub_home_marca"><i class="menu__icon icon icon-toggle" ><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 17 10" fill="#fff" width="20"><path d="M17 1.5L8.5 10 0 1.5 1.594 0l6.908 6.9L15.409 0 17 1.5z"></path></svg></i></button>Acessórios</a>
+                <a class="btn_voltar"><button class="menu__handle menu__handle--level-1" data-index="sub_home_acessorios_feminino"><i class="menu__icon icon icon-toggle" ><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 17 10" fill="#fff" width="20"><path d="M17 1.5L8.5 10 0 1.5 1.594 0l6.908 6.9L15.409 0 17 1.5z"></path></svg></i></button>Acessórios</a>
                 <li>
                     <a class="menu__link menu__link--level-2" href="https://www.offpremium.com.br/acessorios/anel?O=vtexscore+desc&PS=24">
                         <span>Anel</span>
@@ -164,5 +164,3 @@ var menuFeminino = `
 </div>`;
 
 $('ul.primeiro_nivel > li:eq(0)').append(menuFeminino);
-$('ul.primeiro_nivel > li:eq(1)').append(menuFeminino);
-$('ul.primeiro_nivel > li:eq(2)').append(menuFeminino);
