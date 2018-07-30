@@ -18,17 +18,16 @@ body.product.js-tipbar.testbyReady {
   color : rgb(0, 0, 0);
 }
 
-.menu__item--level-1.menu__item--cia--maritima>a {
-    padding-left: 15px;
+.menu__item--level-1.menu__item--cia--maritima > a {
+  padding-left : 15px;
 }
 
-.menu__item.menu__item--level-1.menu__item--valisere>a {
-    padding-left: 25px;
+.menu__item.menu__item--level-1.menu__item--valisere > a {
+  padding-left : 25px;
 }
 
-.menu__item.menu__item--level-1.menu__item--valisere>a>span::after,
-.menu__item--level-1.menu__item--cia--maritima>a>span::after {
-    line-height: 1.4;
+.menu__item.menu__item--level-1.menu__item--valisere > a > span::after, .menu__item--level-1.menu__item--cia--maritima > a > span::after {
+  line-height : 1.4;
 }
 
 .header__menu-button {
@@ -45,9 +44,9 @@ body.product.js-tipbar.testbyReady {
 
 .header__logo {
   margin : auto;
-      position: relative;
-    top: 11px;
-    left: -7px;
+  position : relative;
+  top : 11px;
+  left : -7px;
 }
 
 header.header > .header_ab {
@@ -71,7 +70,7 @@ header.header > .header_ab .nav_primario {
   left : 50%;
   margin-right : -50%;
   transform : translate(-50%, 0%);
-      min-width: 400px;
+  min-width : 400px;
 }
 
 .nav_primario .box_buscar .header__box.header__search {
@@ -170,9 +169,9 @@ header.header > .header_ab .nav_primario {
 .nav_secundario .header__box {
   float : left;
 }
-.nav_secundario .header__box .user,
-.nav_secundario .header__box .minicart {
-    z-index: 2;
+
+.nav_secundario .header__box .user, .nav_secundario .header__box .minicart {
+  z-index : 2;
 }
 
 .nav_secundario .header__box .user .user__handle {
@@ -657,5 +656,17 @@ header.header > .header_ab .nav_primario {
     min-height : auto;
     font-size : 13px;
     font-weight : 100;
+  }
+
+  .header__logo {
+    top : 0px;
+  }
+
+  .menu__item--level-1.menu__item--cia--maritima > a {
+    padding-left : 0px;
+  }
+
+  .menu__item.menu__item--level-1.menu__item--valisere > a {
+    padding-left : 0px;
   }
 }
