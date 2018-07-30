@@ -2,6 +2,11 @@ body ,
 body.js-tipbar {
     padding-top: 164px;
 }
+
+body.meuspedidos{
+  padding-top: 0 !important;
+}
+
 body.product.js-tipbar.testbyReady {
     padding-top: 180px;
 }
@@ -38,6 +43,10 @@ body.product.js-tipbar.testbyReady {
     display : flex;
     color : rgb(255, 255, 255);
     background : rgb(0, 0, 0);
+  }
+
+  .meuspedidos header.header > .header_ab {
+    height: 54px;
   }
   
   .main-search {
@@ -147,19 +156,35 @@ body.product.js-tipbar.testbyReady {
     color : rgb(0, 0, 0);
   }
   
-  .nav_secundario .header__box {
+   .nav_secundario .header__box {
     float : left;
   }
   
   .nav_secundario .header__box .user .user__handle {
     padding : 5px 5px 5px 13px;
     min-height : 54px;
+    max-height: 54px;
   }
   
   .nav_secundario .header__box .user .user__handle .icon-user {
     position : absolute;
     left : 11px;
   }
+
+
+  .nav_secundario .header__box .user.js-active .user__handle .icon-user {
+    position: relative;
+    left: -7px;
+  }
+
+  .nav_secundario .header__box .user .user__handle:hover {
+    color: #000;
+}
+
+  .nav_secundario .header__box .user .user__handle:visited {
+    color : rgb(255, 255, 255);
+}
+
   
   .nav_secundario .header__box .user .user__handle .user__login {
     margin : -3px 0px 0px 17px;
@@ -203,11 +228,14 @@ body.product.js-tipbar.testbyReady {
     opacity : 1;
     display : block;
   }
-  
+
+ 
   .menu_principal > ul.menu__list > li {
     display : inline-block;
   }
-  
+  .menu_principal > ul.menu__list > li.praia a {
+    min-width: 60px;
+  }
   .menu_principal > ul.menu__list > li > a {
     text-transform : uppercase;
     font-size : 12px;
@@ -223,6 +251,7 @@ body.product.js-tipbar.testbyReady {
   
   .menu_principal > ul.menu__list > li .menu__panel--level-2 .container > ul > li > a {
     color : rgb(0, 0, 0);
+    text-align: left;
   }
   
   .menu_principal > ul.menu__list > li .menu__panel--level-2 .container > .menu__banner {

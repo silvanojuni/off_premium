@@ -1,3 +1,4 @@
+@media (max-device-width: 768px) and (orientation: portrait), (max-device-width: 1024px) and (orientation: landscape) {
 .header_ab {
   background : rgb(0, 0, 0);
   width : 100%;
@@ -269,4 +270,5 @@ ul.primeiro_nivel > li .menu__panel--level-2 .sub_menu .container > ul > li {
 ul.primeiro_nivel > li .menu__panel--level-2 .sub_menu .container > ul > li > a {
   color : rgb(0, 0, 0);
   text-transform : capitalize;
+}
 }
